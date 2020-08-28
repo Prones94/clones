@@ -1,0 +1,29 @@
+/* .background {
+    position: absolute;
+    width: 100vw;
+
+} */
+
+.mainpage {
+    background-image: url(./LandingPageGif.gif);
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    z-index: 0;
+
+}
+.navbar {
+    z-index: 999;
+    background: transparent;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+/* .logo {
+    z-index: 1;
+    margin: auto;
+    width: 100%;
+    position: absolute;
+} */
