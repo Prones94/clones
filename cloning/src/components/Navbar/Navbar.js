@@ -1,9 +1,96 @@
 import React from 'react'
+import './Navbar.scss'
 
 export default function Navbar() {
     return (
-        <div>
-            <h1>Navbar</h1>
-        </div>
+        // <header className="section">
+            <nav className="navbar" role="navigation" aria-label="main navigation">
+                <div className="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                   <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" alt="pic"/>
+                </a>
+                </div>
+                <div id="navigation" className="navbar-menu">
+                    <div className="navbar-start">
+                        <a href="/" className="navbar-item">Nav Item 1</a>
+                        <a href="/" className="navbar-item">Nav Item 2</a>
+                        <a href="/" className="navbar-item">Nav Item 3</a>
+                        <a href="/" className="navbar-item">Nav Item 4</a>
+                    </div>
+                    <div className="navbar-end">
+                        <a href="github.com" className="navbar-item is-size-5">
+                            <span className="icon is-hidden-touch">
+                                <i className="fab fa-github"></i>
+                            </span>
+                        </a>
+                        <a href="linkedin.com" className="navbar-item is-size-5">
+                            <span className="icon is-hidden-touch">
+                                <i className="fab fa-linkedin"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        // </header>
+//         <div className="navbar" role="navigation" aria-label="main navigation">
+//             <div class="navbar-brand">
+//                 <a class="navbar-item" href="https://bulma.io">
+//                     <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
+//                 </a>
+
+//                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+//                     <span aria-hidden="true"></span>
+//                     <span aria-hidden="true"></span>
+//                     <span aria-hidden="true"></span>
+//                 </a>
+//             </div>
+
+//             <div id="navbarBasicExample" class="navbar-menu">
+//                 <div class="navbar-start">
+//                     <a class="navbar-item">
+//                         Home
+//       </a>
+
+//                     <a class="navbar-item">
+//                         Documentation
+//       </a>
+
+//                     <div class="navbar-item has-dropdown is-hoverable">
+//                         <a class="navbar-link">
+//                             More
+//         </a>
+
+//                         <div class="navbar-dropdown">
+//                             <a class="navbar-item">
+//                                 About
+//           </a>
+//                             <a class="navbar-item">
+//                                 Jobs
+//           </a>
+//                             <a class="navbar-item">
+//                                 Contact
+//           </a>
+//                             <div class="navbar-divider">
+//                                 <a class="navbar-item">
+//                                     Report an issue
+//           </a>
+//                             </div>
+//                         </div>
+//                     </div>
+
+//                     <div class="navbar-end">
+//                         <div class="navbar-item">
+//                             <div class="buttons">
+//                                 <a class="button is-primary">
+//                                     <strong>Sign up</strong>
+//                                 </a>
+//                                 <a class="button is-light">
+//                                     Log in
+//           </a>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+// </div>
     )
 }

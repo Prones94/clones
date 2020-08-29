@@ -1,14 +1,14 @@
 import React from 'react';
+import './App.scss'
 import Landing from './components/Landing_Page/Landing'
 
 
 function App() {
   return (
-    <>
-      <div>
+      <div className="App"> 
         <Landing />
+
       </div>
-    </>
   );
 }
 
