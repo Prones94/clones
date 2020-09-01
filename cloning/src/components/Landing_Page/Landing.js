@@ -6,6 +6,7 @@ import logo from './VillageLogo.png'
 import Login from '../Login/Login'
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer'
+import Datepicker from '../Datepicker/Datepicker'
 import {
     BrowserRouter as Router,
     Switch,
@@ -26,6 +27,7 @@ export default function Landing() {
                         <Switch>
                             <Route path="/" exact={true}>
                                 <Login />
+                                <Datepicker />
                             </Route>
                         </Switch>
                     </div>
