@@ -8,7 +8,7 @@ export default function Footer() {
         <div class="container is-fluid">
           <div class="columns">
           <div class="column">
-            <p>W3hubs 2019.</p>
+            <p>&copy; Copyright 2020</p>
           </div>
           <div class="icons column has-text-right">
             <i class="fab fa-facebook"></i>
