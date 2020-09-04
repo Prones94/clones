@@ -1,6 +1,6 @@
 // {useState, useEffect}
 import React from 'react'
-import './Landing.scss'
+import './Landing.scss';
 // import gif from './LandingPageGif.gif'
 import logo from './VillageLogo.png'
 import Login from '../Login/Login'

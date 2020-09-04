@@ -1,9 +1,12 @@
-import React from './node_modules/react'
-import './Datepicker.scss'
-import bulmaCalendar from './node_modules/~bulma-calendar/dist/js/bulma-calendar.min.js.js';
+import React from 'react';
+import './Datepicker.scss';
+import bulmaCalendar from 'bulma-calendar/dist/js/bulma-calendar.min.js';
+import "bulma-calendar/dist/css/bulma-calendar.min.css";
+// import bulmaCalendar from './node_modules/~bulma-calendar/dist/js/bulma-calendar.min.js';
 
 export default function Datepicker() {
-    // Initialize all input of date type.
+    
+	// Initialize all input of date type.
 const calendars = bulmaCalendar.attach('[type="date"]');
 
 // Loop on each calendar initialized
@@ -23,8 +26,8 @@ if (element) {
 	});
 }
     return (
-        <div id="my-element">
+
         <input type="date"/>
-        </div>
+
     )
-    }
+}

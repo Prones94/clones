@@ -1,6 +1,5 @@
-@import "bulma/sass/utilities/_all.sass";
-@import "bulma/sass/elements/button.sass";
-// @import 'bulma.sass';
-// @import "bulmaCalendar.sass";
+$main-color: blue;
 
-// $navbar-background-color: transparent;
+body > p {
+    color: $main-color;
+}
